@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.title {
+  text-align: center;
+}
+
+.title h4 {
+  font-weight: 300;
+}
+
+.title h1 {
+  font-weight: 900;
+}
+
+.title p {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.catalog .card {
+  border-radius: 0;
+}
+
+.catalog .card-hero .card {
+  -webkit-filter: brightness(100%);
+  transition: all 0.3s ease;
+}
+
+.catalog .card-hero .card:hover {
+  -webkit-filter: brightness(80%);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.catalog .card-hero .card h2 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-weight: 900;
+  font-size: 46px;
+}
