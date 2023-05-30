@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/img/Logogram Strumville.svg" />
+    <title>Product - Strumville</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+  </head>
+  <body>
+    <!-- Navbars -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <div class="container-fluid mx-5">
+        <a class="navbar-brand" style="padding-right: 20px" href="index.html">
+          <img src="assets/img/shop-logo.svg" alt="Bootstrap" width="150px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav gap-4">
+            <li class="nav-item">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              </form>
+            </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown dropstart">
+                <a class="nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Container -->
+    <div class="container mt-5 mb-5">
+      <section class="catalog">
+        <div class="title mb-lg-5 mt-3">
+          <h4>Best of the Best</h4>
+          <h1>PRODUCTS</h1>
+          <p>Strum. Explore. Bring your melodies.</p>
+          <p>Get ride into the tone with endless possibilites of reach.</p>
+        </div>
+
+        <div class="divider d-flex gap-5">
+          <div class="filter">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Labels</button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Greenies Strat </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Line Up 2023 </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Brand</button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Fender <sub>(411)</sub> </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Squier <sub>(142)</sub> </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Ibanez <sub>(134)</sub> </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Jackson <sub>(41)</sub> </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Ernie Ball <sub>(98)</sub> </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Taylor <sub>(168)</sub> </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Type</button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Solid Body Guitar </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Hollow Body Guitar </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Custom Guitar </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Pedal Effect </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> 12 String Guitar </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Shape</button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Stratocaster </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Telecaster </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Dinky </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Jazzbass </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Soloist </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">Price Range (IDR)</button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> < Rp 500.000 </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Rp 500.000 - Rp 999.000 </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Rp 1.000.000 - Rp 1.499.000 </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Rp 1.500.000 - Rp 1.999.000 </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Rp 2.000.000 - Rp 3.000.00 </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> Rp 3.000.000 - Rp 5.000.000 </label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault"> > Rp 5.000.000 </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-4 g-4 product">
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <img src="assets/img/product-1.webp" class="card-img-top" alt="product-1" />
+                  <a class="btn" href="detail-product.html">Detail Product</a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Squier Mini Jazzmaster HH Electric Guitar, Maple FB, Olympic White</h5>
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 3.100.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-2.webp" class="card-img-top" alt="product-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Ibanez AZES31-IV Electric Guitar, Ivory</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 4.240.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-3.webp" class="card-img-top" alt="product-3" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Vox VX50 KB Portable 50-watt Keyboard Amplifier</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 4.096.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-4.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Electro-Harmonix Mod11 Modulator Guitar Effects Pedal</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 2.600.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-6.webp" class="card-img-top" alt="product-1" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Chapman ML3 Modern Standard Electric Guitar, Sage Green Satin</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 9.750.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-5.webp" class="card-img-top" alt="product-2" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Cort SFX-Myrtlewood Acoustic Guitar, Natural Gloss</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 6.790.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-7.webp" class="card-img-top" alt="product-3" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Fender Player Jazz Bass Guitar, Maple FB Buttercream</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 14.300.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-8.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Fender Japan Traditional II 60s Telecaster Electric Guitar, RW FB</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 15.900.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-9.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Fender Hammertone Overdrive Guitar Effects Pedal</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 1.500.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-10.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Ibanez Bass Workshop UB805-MOB 5-String Upright Bass w/Gig Bag, Mahogany</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 15.130.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-11.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Ernie Ball Earthwood Custom Light Phosphor Bronze Acoustic Guitar Strings</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 250.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-12.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Taylor 611e-LTD Grand Theater Acoustic-Electric Guitar, Tobacco Sunburst</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 59.450.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-13.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Victory VC35 Deluxe Head Guitar Amplifier</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 28.100.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-14.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">DiMarzio DP228FBK Crunch Lab Humbucker Guitar Pickup, F-Spaced, Black</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 1.210.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-15.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Squier Affinity Series Starcaster Electric Guitar, Maple FB, Candy Apple Red</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 4.784.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="button-wrap d-flex justify-content-center">
+                  <a class="btn" href="#">Detail Product</a>
+                  <img src="assets/img/product-16.webp" class="card-img-top" alt="product-4" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Ibanez AE519-NT Acoustic Guitar w/Case, Natural</h5>
+
+                  <div class="price d-flex justify-content-between">
+                    <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 27.050.000</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col d-flex justify-content-end">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-between p-4" style="background-color: #fc8b0b">
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Strumville Co.</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Guitar</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Amplifier</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Percussion</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Accessories</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p><i class="fas fa-home mr-3"></i> Matraman, Jakarta Timur 13140</p>
+              <p><i class="fas fa-envelope mr-3"></i> nickymickoayub@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 62 08 21 72 99 94 25</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">strumville.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

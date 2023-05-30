@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="assets/img/Logogram Strumville.svg" />
-    <title>Home - Strumville</title>
+    <title>Detail Product - Strumville</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/style/style.css" />
   </head>
@@ -18,18 +18,8 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-          <ul class="navbar-nav nav-underline">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="product.html">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-          </ul>
+
+        <div class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav gap-4">
             <li class="nav-item">
               <form class="d-flex" role="search">
@@ -53,67 +43,134 @@
       </div>
     </nav>
 
-    <!-- Carousel -->
-    <div id="carousel-main" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/gibson.png" class="d-block w-100" alt="carousel-item-1" />
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/fender.png" class="d-block w-100" alt="carousel-item-2" />
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/ibanez.png" class="d-block w-100" alt="carousel-item-3" />
-        </div>
-      </div>
-    </div>
-
-    <div class="divider mt-3"></div>
-
-    <div id="carousel-secondary" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/img/merk-1.png" class="d-block w-100" alt="carousel-item-1" />
-        </div>
-        <div class="carousel-item">
-          <img src="assets/img/merk-2.png" class="d-block w-100" alt="carousel-item-2" />
-        </div>
-      </div>
-    </div>
-
     <!-- Container -->
     <div class="container mt-5 mb-5">
       <section class="catalog">
-        <div class="title mb-lg-5 mt-3">
-          <h4>Our Catalog: Music Tops</h4>
-          <h1>STRUM THE VILLE</h1>
-          <p>Strum. Explore. Bring your melodies.</p>
-          <p>Get ride into the tone with endless possibilites of reach.</p>
+        <div class="navbar-brand">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="product.html" style="color: #4b4848">Product</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Detail</li>
+            </ol>
+          </nav>
         </div>
-
-        <div class="row row-cols-1 row-cols-md-2 g-4 mb-4 card-hero">
-          <div class="col">
-            <div class="card h-300">
-              <img src="assets/img/card-hero-1.jpg" class="card-img-top" alt="card-hero-1" height="300px" />
-              <h2 style="color: #fc8b0b">
-                GREENIES <br />
-                STRATOCASTER
-              </h2>
-              <h3 onclick="location.href='product.html'">CHECK NOW!</h3>
+        <div class="row g-4 mb-4 card-hero">
+          <div class="col-5">
+            <div class="img">
+              <img src="assets/img/product-1.webp" class="card-img-top" alt="card-hero-1" />
             </div>
           </div>
-          <div class="col">
-            <div class="card h-300">
-              <img src="assets/img/card-hero-2.webp" class="card-img-top" alt="card-hero-2" height="300px" />
-              <h2 style="color: #fc8b0b">LINEUP 2023</h2>
-              <h3 onclick="location.href='product.html'">CHECK NOW!</h3>
+          <div class="col-7 desc">
+            <h2 class="product-title">Squier Mini Jazzmaster HH Electric Guitar, Maple FB, Olympic White</h2>
+            <ul class="d-flex gap-5" style="font-size: 18px">
+              <li class="subtitle" style="list-style: none"><span style="color: gold">★</span> 5 <span style="color: #888686">(1 rating)</span></li>
+              <li class="subtitle"><span style="color: #888686">3</span> Sold</li>
+              <li class="subtitle"><span style="color: #888686">1</span> Review</li>
+            </ul>
+            <h1 class="product-price">Rp 3.100.000</h1>
+            <hr class="mt-3 mb-5" />
+            <h3 class="detail-title">About This Product</h3>
+            <p class="detail-product">
+              Squier Mini Jazzmaster® HH adalah rekan yang sempurna untuk pemain yang mencari instrumen berukuran kecil dengan gaya klasik dan nada Fender® yang familiar. Dengan body yang ramping dan ringan, profil neck berbentuk “C” yang
+              mudah dimainkan, dual Squier humbucking pickup dengan 3-way switching untuk variasi sonic, dan hardtail bridge untuk memberikan stabilitas tuning yang solid.
+            </p>
+
+            <h3 class="detail-title mt-5">Specification</h3>
+            <ul class="spec-list">
+              <li><span style="font-weight: bold">Body Shape:</span> Mini Jazzmaster®</li>
+              <li><span style="font-weight: bold">Body Material:</span> Poplar</li>
+              <li><span style="font-weight: bold">Body Finish:</span> Gloss Polyurethane</li>
+              <li><span style="font-weight: bold">Fretboard Material:</span> Laurel</li>
+              <li><span style="font-weight: bold">Fretboard Radius:</span> 9.5" (241mm)</li>
+              <li><span style="font-weight: bold">Scale Length:</span> 22.75" (578mm)</li>
+              <li><span style="font-weight: bold">No. of Frets:</span> 20 Narrow Tall</li>
+              <li><span style="font-weight: bold">Fretboard Inlays:</span> Black Dot</li>
+              <li><span style="font-weight: bold">Pickup:</span> Standard Humbucking (Bridge & Neck)</li>
+              <li><span style="font-weight: bold">Bridge:</span> 6-Saddle Hardtail</li>
+              <li><span style="font-weight: bold">Pickguard:</span> 1-Ply White</li>
+              <li><span style="font-weight: bold">Strings:</span> Nickel Plated Steel (.009-.042 Gauges)</li>
+              <li><span style="font-weight: bold">Tuning Machines:</span> Die-Cast Sealed</li>
+              <li><span style="font-weight: bold">Hardware Finish:</span> Chrome</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="button-group d-flex gap-2 justify-content-end">
+          <button class="btn btn-lg buy">Buy</button>
+          <button class="btn btn-lg addcart">Add to Cart</button>
+        </div>
+
+        <!-- Comments -->
+        <div class="title mb-5" style="margin-top: 100px">
+          <h1 style="text-align: left; font-weight: 500; font-size: 28px">Comment & Rating</h1>
+          <hr />
+        </div>
+
+        <div class="comment-section row g-4 mb-4">
+          <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">Product Ratings</h3>
+                <h1 class="card-title text-center mt-3 mb-3">5 <span style="font-size: 28px">/ 5</span></h1>
+                <table>
+                  <tr height="30">
+                    <td width="100%"><span style="color: gold">★★★★★</span></td>
+                    <td>(1)</td>
+                  </tr>
+                  <tr height="30">
+                    <td width="100%"><span style="color: gold">★★★★</span></td>
+                    <td>(0)</td>
+                  </tr>
+                  <tr height="30">
+                    <td width="100%"><span style="color: gold">★★★</span></td>
+                    <td>(0)</td>
+                  </tr>
+                  <tr height="30">
+                    <td width="100%"><span style="color: gold">★★</span></td>
+                    <td>(0)</td>
+                  </tr>
+                  <tr height="30">
+                    <td width="100%"><span style="color: gold">★</span></td>
+                    <td>(0)</td>
+                  </tr>
+                  <tr height="30">
+                    <td width="100%">With comment</td>
+                    <td>(1)</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-9">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title mb-5">Recent Comments</h4>
+                <div class="comment-widgets mb-2">
+                  <div class="d-flex flex-row comment-row gap-3">
+                    <div class="p-2">
+                      <span class="round"><img src="assets/img/Logogram Strumville.svg" alt="user" width="50" /></span>
+                    </div>
+                    <div class="comment-text w-100">
+                      <h5>Muhammad Sumbul</h5>
+                      <div class="comment-footer mb-3">
+                        <span class="date">May 14, 2023</span> <br />
+                        <span style="color: gold">★★★★★</span>
+                      </div>
+                      <p class="m-b-5 m-t-10">
+                        Build nya keren, hardware solid, pas digenjreng sih keluar suara 'omagah', tapi tidak apa-apa, saya suka. Pickup clean no rewel, emang gasalah beli squier. Sekali genjreng jadi pengen squier (lagi)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- Card Row 1 -->
         <div class="title mb-5" style="margin-top: 100px">
-          <h1 style="text-align: left; font-weight: 500; font-size: 28px">The Latest | <span class="see-more" onclick="location.href='product.html'">See More</span></h1>
+          <h1 style="text-align: left; font-weight: 500; font-size: 28px">Related Products | <span class="see-more" onclick="location.href='product.html'">See More</span></h1>
           <hr />
         </div>
 
@@ -121,7 +178,7 @@
           <div class="col">
             <div class="card h-100">
               <div class="button-wrap d-flex justify-content-center">
-                <a href="detail-product.html" class="btn btn-lg">Detail Product</a>
+                <a href="#" class="btn">Detail Product</a>
                 <img src="assets/img/product-1.webp" class="card-img-top" alt="product-1" />
               </div>
               <div class="card-body">
@@ -135,7 +192,7 @@
           <div class="col">
             <div class="card h-100">
               <div class="button-wrap d-flex justify-content-center">
-                <a href="#" class="btn btn-lg">Detail Product</a>
+                <a href="#" class="btn">Detail Product</a>
                 <img src="assets/img/product-2.webp" class="card-img-top" alt="product-2" />
               </div>
               <div class="card-body">
@@ -149,7 +206,7 @@
           <div class="col">
             <div class="card h-100">
               <div class="button-wrap d-flex justify-content-center">
-                <a href="#" class="btn btn-lg">Detail Product</a>
+                <a href="#" class="btn">Detail Product</a>
                 <img src="assets/img/product-3.webp" class="card-img-top" alt="product-3" />
               </div>
               <div class="card-body">
@@ -163,7 +220,7 @@
           <div class="col">
             <div class="card h-100">
               <div class="button-wrap d-flex justify-content-center">
-                <a href="#" class="btn btn-lg">Detail Product</a>
+                <a href="#" class="btn">Detail Product</a>
                 <img src="assets/img/product-4.webp" class="card-img-top" alt="product-4" />
               </div>
               <div class="card-body">
@@ -175,122 +232,8 @@
             </div>
           </div>
         </div>
-
-        <!-- Card Row 2 -->
-        <div class="title mb-5" style="margin-top: 100px">
-          <h1 style="text-align: left; font-weight: 500; font-size: 28px">Top This Week | <span class="see-more" onclick="location.href='product.html'">See More</span></h1>
-          <hr />
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-4 g-4 latest-product">
-          <div class="col">
-            <div class="card h-100">
-              <div class="button-wrap d-flex justify-content-center">
-                <a href="#" class="btn btn-lg">Detail Product</a>
-                <img src="assets/img/product-6.webp" class="card-img-top" alt="product-1" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Chapman ML3 Modern Standard Electric Guitar, Sage Green Satin</h5>
-                <div class="price d-flex justify-content-between">
-                  <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 9.750.000</strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="button-wrap d-flex justify-content-center">
-                <a href="#" class="btn btn-lg">Detail Product</a>
-                <img src="assets/img/product-5.webp" class="card-img-top" alt="product-2" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Cort SFX-Myrtlewood Acoustic Guitar, Natural Gloss</h5>
-                <div class="price d-flex justify-content-between">
-                  <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 6.790.000</strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="button-wrap d-flex justify-content-center">
-                <a href="#" class="btn btn-lg">Detail Product</a>
-                <img src="assets/img/product-7.webp" class="card-img-top" alt="product-3" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Fender Player Jazz Bass Guitar, Maple FB Buttercream</h5>
-                <div class="price d-flex justify-content-between">
-                  <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 14.300.000</strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <div class="button-wrap d-flex justify-content-center">
-                <a href="#" class="btn btn-lg">Detail Product</a>
-                <img src="assets/img/product-8.webp" class="card-img-top" alt="product-4" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Fender Japan Traditional II 60s Telecaster Electric Guitar, RW FB</h5>
-                <div class="price d-flex justify-content-between">
-                  <p class="card-text"><sup style="color: green">Tersedia</sup><br /><strong>Rp. 15.900.000</strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
     </div>
-
-    <section class="carousel container-fluid p-5" style="background-color: aliceblue">
-      <div class="title mb-lg-5">
-        <h1>FROM OUR</h1>
-        <p>Get the best experience of reach a instrument.</p>
-      </div>
-
-      <div class="container mini-caro">
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="assets/img/mini-caro-1.png" class="d-block w-100" alt="mini-caro-1" />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Classic Strummer</h5>
-                <p>Serial Product from Fender</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/mini-caro-2.png" class="d-block w-100" alt="mini-caro-2" />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Acoustic</h5>
-                <p>Melody with a natural tone</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="assets/img/mini-caro-3.png" class="d-block w-100" alt="mini-caro-3" />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Stratocaster</h5>
-                <p>Most used guitar</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <div class="title mb-lg-5 mt-5"></div>
-    </section>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
